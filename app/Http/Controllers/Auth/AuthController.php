@@ -22,7 +22,7 @@ class AuthController extends Controller
 
         $request->session()->put('bnet.region', config('services.battlenet.region'));
 
-        return Socialite::with('battlenet')->redirect();
+        return Socialite::with('battlenet')->scopes(['wow.profile'])->redirect();
     }
 
     /**
