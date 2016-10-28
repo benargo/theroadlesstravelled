@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Route::get('login', 'Auth\AuthController@redirectToProvider');
+Route::get('login/callback', 'Auth\AuthController@handleProviderCallback');
+
+Route::get('discord', 'DiscordController@index');
 
 Route::get('/home', 'HomeController@index');

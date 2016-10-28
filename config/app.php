@@ -178,6 +178,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Other Service Providers...
+         */
+        Laravel\Socialite\SocialiteServiceProvider::class,
+        SocialiteProviders\Manager\ServiceProvider::class,
+        Reflex\SocialiteProviders\BattleNet\BattleNetServiceProvider::class,
     ],
 
     /*
@@ -226,6 +232,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        /*
+         * Other Aliases...
+         */
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'BattleNet' => Reflex\SocialiteProviders\BattleNet\BattleNetFacade::class,
     ],
 
 ];
