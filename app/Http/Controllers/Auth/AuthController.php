@@ -32,7 +32,7 @@ class AuthController extends Controller
      */
     public function handleProviderCallback(Request $request)
     {
-        $user = Socialite::driver('battlenet')->scopes(['wow.profile'])->user();
+        $user = Socialite::driver('battlenet')->user();
 
         $request->session()->put('token', $user->token);
 
