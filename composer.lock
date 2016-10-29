@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e47e7ea7c7e3f8c3a49f4974087d8ca",
-    "content-hash": "04845ac9fc548415264278446512e279",
+    "hash": "b0493aeeddf4b4922888268aafed27f5",
+    "content-hash": "93d51bc302ffe9355a2464b583421c0a",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2256,16 +2256,16 @@
         },
         {
             "name": "team-reflex/socialite-battlenet",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/teamreflex/Socialite-BattleNet.git",
-                "reference": "b9f47903bc24a9021fa5ea3102b252ba0b3511f2"
+                "reference": "1cfbaf986488d23e482f95d7f31c550958e1a203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/teamreflex/Socialite-BattleNet/zipball/b9f47903bc24a9021fa5ea3102b252ba0b3511f2",
-                "reference": "b9f47903bc24a9021fa5ea3102b252ba0b3511f2",
+                "url": "https://api.github.com/repos/teamreflex/Socialite-BattleNet/zipball/1cfbaf986488d23e482f95d7f31c550958e1a203",
+                "reference": "1cfbaf986488d23e482f95d7f31c550958e1a203",
                 "shasum": ""
             },
             "require": {
@@ -2289,7 +2289,7 @@
                 }
             ],
             "description": "BattleNet OAuth2 Provider for Laravel Socialite",
-            "time": "2016-06-17 07:39:19"
+            "time": "2016-10-29 01:59:07"
         },
         {
             "name": "vlucas/phpdotenv",
