@@ -22,7 +22,7 @@ class AuthController extends Controller
 
         $request->session()->put('bnet.region', config('services.battlenet.region'));
 
-        return Socialite::with('battlenet')->scopes(['wow.profile'])->redirect();
+        return Socialite::driver('battlenet')->scopes(['wow.profile'])->redirect();
     }
 
     /**
@@ -32,7 +32,7 @@ class AuthController extends Controller
      */
     public function handleProviderCallback(Request $request)
     {
-        $user = Socialite::driver('battlenet')->user();
+        $user = Socialite::driver('battlenet')->stateless()->user();
 
         $request->session()->put('token', $user->token);
 
