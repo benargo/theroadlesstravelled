@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>The Road Less Travelled</title>
+        <title>Herbs Competition</title>
+        <meta name="description" content="Get involved with our herb competition! Win fantastic cash prizes by donating herbs to our
+        raiding effort">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
