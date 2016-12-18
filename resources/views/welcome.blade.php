@@ -75,8 +75,8 @@
 
                 <div class="links">
                     <a href="/discord">Discord</a>
-                    <a href="/teamspeak">TeamSpeak</a>
                     <a href="https://www.facebook.com/groups/1422789254626118/">Facebook</a>
+                    <a href="/herbs">Herb Competition</a>
                 </div>
             </div>
         </div>

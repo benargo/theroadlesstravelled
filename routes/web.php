@@ -15,10 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/herbs', function () {
+    return view('herb-competition', [
+        'now' => '18/12/2016 12:00 CET',
+        'until' => '23/12/2016 12:00 CET',
+        'winner' => '26/12/2016',
+    ]);
+});
+
 Route::get('login', 'Auth\AuthController@redirectToProvider');
 Route::get('login/callback', 'Auth\AuthController@handleProviderCallback');
 
 Route::get('discord', 'HomeController@discord');
 Route::get('teamspeak', 'HomeController@teamspeak');
-
-Route::get('/home', 'HomeController@index');
