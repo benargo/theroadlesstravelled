@@ -30,11 +30,11 @@
                 background-color: rgba(0, 0, 0, 0.6);
             }
 
-            .flex-center {
+            /*.flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
-            }
+            }*/
 
             .position-ref {
                 position: relative;
@@ -47,11 +47,11 @@
             }
 
             .content {
-                padding: 50px;
+                padding: 0 20px;
             }
 
             .title {
-                font-size: 84px;
+                font-size: 64px;
                 text-align: center;
             }
 
