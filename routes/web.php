@@ -27,4 +27,3 @@ Route::get('login', 'Auth\AuthController@redirectToProvider');
 Route::get('login/callback', 'Auth\AuthController@handleProviderCallback');
 
 Route::get('discord', 'HomeController@discord');
-Route::get('teamspeak', 'HomeController@teamspeak');
