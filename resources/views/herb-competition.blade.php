@@ -97,7 +97,7 @@
 
                 <h2>Anything else?</h2>
 
-                <p>Yes, get herbing!</p>
+                <p>Useful farming guides are available over at <a href="http://www.wow-professions.com/farming-guides" rel="nofollow">WoW Professions</a>. Other than that, get herbing!</p
 
                 <div class="rules">
                     <h2>Rules</h2>
