@@ -17,9 +17,9 @@ Route::get('/', function () {
 
 Route::get('/herbs', function () {
     return view('herb-competition', [
-        'now' => '18/12/2016 12:00 CET',
-        'until' => '23/12/2016 12:00 CET',
-        'winner' => '26/12/2016',
+        'now' => '25/01/2017 12:00 CET',
+        'until' => '29/01/2017 12:00 CET',
+        'winner' => '30/01/2017',
     ]);
 });
 

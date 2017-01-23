@@ -92,8 +92,8 @@
 
                 <h2>Why are we doing this?</h2>
 
-                <p>For something a little different this Christmas, and because of raiding starting up again in the new year, we need herbs
-                    to turn into flasks, potions and vantus runes. This way, each member will get free access to these items on raid nights.</p>
+                <p>We need herbs to turn into flasks, potions and vantus runes. This way, each member will get free
+                    access to these items on raid nights.</p>
 
                 <h2>Anything else?</h2>
 
